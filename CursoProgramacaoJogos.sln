@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula15-08-Random", "Aula15-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula15-08-OperadoresMatematicos", "Aula15-08-OperadoresMatematicos\Aula15-08-OperadoresMatematicos.csproj", "{DFB1ACDA-C06E-4FF2-B25B-06FC9D9DF213}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula15-08-ExercicioMegaSena", "Aula15-08-ExercicioMegaSena\Aula15-08-ExercicioMegaSena.csproj", "{2BEDDA64-3B5E-437B-B454-EDAB79B16739}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DFB1ACDA-C06E-4FF2-B25B-06FC9D9DF213}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFB1ACDA-C06E-4FF2-B25B-06FC9D9DF213}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFB1ACDA-C06E-4FF2-B25B-06FC9D9DF213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BEDDA64-3B5E-437B-B454-EDAB79B16739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BEDDA64-3B5E-437B-B454-EDAB79B16739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BEDDA64-3B5E-437B-B454-EDAB79B16739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BEDDA64-3B5E-437B-B454-EDAB79B16739}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
