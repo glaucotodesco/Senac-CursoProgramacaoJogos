@@ -1,0 +1,8 @@
+﻿Receber um número inteiro.
+
+Mostrar:
+
+O antecessor desse número.
+O sucessor desse número.
+O dobro desse número.
+A métade desse número.
