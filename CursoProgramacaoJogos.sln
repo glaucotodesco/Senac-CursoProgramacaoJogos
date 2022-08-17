@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula15-08-Variaveis", "Aula15-08-variaveis\Aula15-08-Variaveis.csproj", "{915069A5-6B9D-4157-B663-DD817866F707}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula15-08-Variaveis", "Aula15-08-variaveis\Aula15-08-Variaveis.csproj", "{915069A5-6B9D-4157-B663-DD817866F707}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula15-08-Random", "Aula15-08-Random\Aula15-08-Random.csproj", "{654AA552-238D-49A6-8582-81EF72BE9918}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula15-08-Random", "Aula15-08-Random\Aula15-08-Random.csproj", "{654AA552-238D-49A6-8582-81EF72BE9918}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula15-08-OperadoresMatematicos", "Aula15-08-OperadoresMatematicos\Aula15-08-OperadoresMatematicos.csproj", "{DFB1ACDA-C06E-4FF2-B25B-06FC9D9DF213}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula15-08-OperadoresMatematicos", "Aula15-08-OperadoresMatematicos\Aula15-08-OperadoresMatematicos.csproj", "{DFB1ACDA-C06E-4FF2-B25B-06FC9D9DF213}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula15-08-ExercicioMegaSena", "Aula15-08-ExercicioMegaSena\Aula15-08-ExercicioMegaSena.csproj", "{2BEDDA64-3B5E-437B-B454-EDAB79B16739}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula15-08-ExercicioMegaSena", "Aula15-08-ExercicioMegaSena\Aula15-08-ExercicioMegaSena.csproj", "{2BEDDA64-3B5E-437B-B454-EDAB79B16739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula16-08-Exercicio01", "Aula16-08-EntradaDeDados\Aula16-08-Exercicio01.csproj", "{14643D3B-7EBA-4A50-953F-C622636F7CDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula16-08-Console-ReadLine", "Aula16-08-Console-ReadLine\Aula16-08-Console-ReadLine.csproj", "{0E09D772-6843-42E5-926D-9D2E0311CDD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula16-08-ExercicioCalculadora", "Aula16-08-ExercicioCalculadora\Aula16-08-ExercicioCalculadora.csproj", "{9D907CB4-0C2B-47C1-B2CD-9DF5F3E5A74C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{2BEDDA64-3B5E-437B-B454-EDAB79B16739}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BEDDA64-3B5E-437B-B454-EDAB79B16739}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BEDDA64-3B5E-437B-B454-EDAB79B16739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14643D3B-7EBA-4A50-953F-C622636F7CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14643D3B-7EBA-4A50-953F-C622636F7CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14643D3B-7EBA-4A50-953F-C622636F7CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14643D3B-7EBA-4A50-953F-C622636F7CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E09D772-6843-42E5-926D-9D2E0311CDD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E09D772-6843-42E5-926D-9D2E0311CDD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E09D772-6843-42E5-926D-9D2E0311CDD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E09D772-6843-42E5-926D-9D2E0311CDD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D907CB4-0C2B-47C1-B2CD-9DF5F3E5A74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D907CB4-0C2B-47C1-B2CD-9DF5F3E5A74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D907CB4-0C2B-47C1-B2CD-9DF5F3E5A74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D907CB4-0C2B-47C1-B2CD-9DF5F3E5A74C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

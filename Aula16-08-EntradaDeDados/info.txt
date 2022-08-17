@@ -1,0 +1,16 @@
+﻿Receber o nome e o poder do player.
+O usuário deverá digitar o poder de 1.0 à 10.0 (mínimo  e máximo).
+Calcular e mostrar todas as informações do player. 
+Formatar com duas casas decimais:
+
+	Magia: A magia é calculada em função do poder, exemplos:
+		Se poder = 1, magia = 4,5		
+		Se poder = 5, magia = 2,5		
+		Se poder = 10, magia = 0		
+
+	Resistência: A resistência é calculada em função do poder, exemplos:
+		Se poder = 1, resistência = 9,0	
+		Se poder = 5, resistência = 5,0		
+		Se poder = 10, resistência = 0		
+
+	Inteligência é um valor randômico de 1.0 à 10.0 (mínimo  e máximo).
