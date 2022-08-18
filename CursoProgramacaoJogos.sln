@@ -19,15 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula16-08-Exercicio01", "Au
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula16-08-Exercicio02", "Aula16-08-Exercicio02\Aula16-08-Exercicio02.csproj", "{B4F8D10E-1864-4B64-B9EA-3F03F28F4D4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula17-08-Operadores", "Aula17-08-Operadores\Aula17-08-Operadores.csproj", "{34BDF382-E012-4FF0-9712-456E90F2504E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula17-08-Operadores", "Aula17-08-Operadores\Aula17-08-Operadores.csproj", "{34BDF382-E012-4FF0-9712-456E90F2504E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula17-08-OperadoresII", "Aula17-08-OperadoresII\Aula17-08-OperadoresII.csproj", "{D1D85551-464C-4CB0-ADB2-82E889C41310}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula17-08-OperadoresII", "Aula17-08-OperadoresII\Aula17-08-OperadoresII.csproj", "{D1D85551-464C-4CB0-ADB2-82E889C41310}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula17-08-OperadoresIII", "Aula17-08-OperadoresIII\Aula17-08-OperadoresIII.csproj", "{E6BE3E66-940D-46D3-9AF1-27FC8DE01018}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula17-08-OperadoresIII", "Aula17-08-OperadoresIII\Aula17-08-OperadoresIII.csproj", "{E6BE3E66-940D-46D3-9AF1-27FC8DE01018}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula17-08-Comando-If", "Aula17-08-Comando-If\Aula17-08-Comando-If.csproj", "{60AA08DE-CE19-4751-8373-76337508D548}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula17-08-Comando-If", "Aula17-08-Comando-If\Aula17-08-Comando-If.csproj", "{60AA08DE-CE19-4751-8373-76337508D548}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula17-08-Exercicio01", "Aula17-08-Exercicio01\Aula17-08-Exercicio01.csproj", "{79CDE5DA-9667-4292-92E3-0AC2D6AC3F54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula17-08-Exercicio01", "Aula17-08-Exercicio01\Aula17-08-Exercicio01.csproj", "{79CDE5DA-9667-4292-92E3-0AC2D6AC3F54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula18-08-Exercicio2", "Aula18-08-Exercicio2\Aula18-08-Exercicio2.csproj", "{8850CC38-1D24-48FD-B706-6871090CF9FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{79CDE5DA-9667-4292-92E3-0AC2D6AC3F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79CDE5DA-9667-4292-92E3-0AC2D6AC3F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79CDE5DA-9667-4292-92E3-0AC2D6AC3F54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8850CC38-1D24-48FD-B706-6871090CF9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8850CC38-1D24-48FD-B706-6871090CF9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8850CC38-1D24-48FD-B706-6871090CF9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8850CC38-1D24-48FD-B706-6871090CF9FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

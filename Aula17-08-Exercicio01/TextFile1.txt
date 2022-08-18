@@ -13,7 +13,8 @@ Para cada jogador sortear:
 O poder: Mínimo 10, Máximo 100
 A magia: Mínimo 10, Máximo 100
 A resistência: Mínimo 10, Máximo 100
-Mostrar na tela, para cada item (poder, magia e resistência), quem é o vencedor ou empate (Jogador 1 ou Jogador 2)
+Mostrar na tela, para cada item (poder, magia e resistência),
+quem é o vencedor ou empate (Jogador 1 ou Jogador 2)
 
 
 
