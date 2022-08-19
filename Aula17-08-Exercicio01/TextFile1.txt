@@ -8,13 +8,34 @@ O usuário terá 3 chances de acertar o valor sorteado.
 Mostrar na tela se o usuário acertou ou errou. Se errou mostrar o valor sorteado.
 
 Exercício 3:
-Receber os nomes de 2 Jogadores
-Para cada jogador sortear:
-O poder: Mínimo 10, Máximo 100
-A magia: Mínimo 10, Máximo 100
-A resistência: Mínimo 10, Máximo 100
-Mostrar na tela, para cada item (poder, magia e resistência),
-quem é o vencedor ou empate (Jogador 1 ou Jogador 2)
+	Receber os nomes de 2 Jogadores
+	Para cada jogador sortear:
+		O poder: Mínimo 10, Máximo 100
+		A magia: Mínimo 10, Máximo 100
+		A resistência: Mínimo 10, Máximo 100
+	Mostrar na tela, para cada item (poder, magia e resistência),
+    quem é o vencedor ou empate (Jogador 1 ou Jogador 2).
+	
+Exercício 4: Batalha naval.
+	O tabuleiro do jogo ocupa 10 espaços em linha reta.
+	Um navio ocupa 3 espaços do tabuleiro.
+	Sortear a posição do navio no tabuleiro.
+	Você terá 3 chances para afundar o navio, você afunda o navio com um único tiro!
+	Se acertou, finalizar o jogo.
+	Se errou, imprimir "Água" e receber o próximo tiro.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
