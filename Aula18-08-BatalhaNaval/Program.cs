@@ -13,7 +13,7 @@ namespace Aula18_08_BatalhaNaval
             int navioParte2 = navio;
             int navioParte3 = navio + 1;
 
-            Console.WriteLine("Posicao do navio: " + (navioParte1) + ", " + navioParte2 + " e " + (navioParte3));
+            //Console.WriteLine("Posicao do navio: " + (navioParte1) + ", " + navioParte2 + " e " + (navioParte3));
 
 
             Console.WriteLine("Digite a posição do tiro: 1 à 10");
