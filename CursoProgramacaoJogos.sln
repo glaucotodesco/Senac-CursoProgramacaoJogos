@@ -29,11 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula17-08-Comando-If", "Aul
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula17-08-Exercicio01", "Aula17-08-Exercicio01\Aula17-08-Exercicio01.csproj", "{79CDE5DA-9667-4292-92E3-0AC2D6AC3F54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula18-08-Exercicio2", "Aula18-08-Exercicio2\Aula18-08-Exercicio2.csproj", "{8850CC38-1D24-48FD-B706-6871090CF9FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula18-08-Exercicio2", "Aula18-08-Exercicio2\Aula18-08-Exercicio2.csproj", "{8850CC38-1D24-48FD-B706-6871090CF9FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula18-08-BatalhaNaval", "Aula18-08-BatalhaNaval\Aula18-08-BatalhaNaval.csproj", "{9E1D77EC-5DED-489D-8A0E-E58D5BC8C62A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula18-08-BatalhaNaval", "Aula18-08-BatalhaNaval\Aula18-08-BatalhaNaval.csproj", "{9E1D77EC-5DED-489D-8A0E-E58D5BC8C62A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula18-08-Exercicio3", "Aula18-08-Exercicio3\Aula18-08-Exercicio3.csproj", "{5CB56ADB-6773-486B-89C6-4D441914D437}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula18-08-Exercicio3", "Aula18-08-Exercicio3\Aula18-08-Exercicio3.csproj", "{5CB56ADB-6773-486B-89C6-4D441914D437}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula19-08-Exercicio5", "Aula19-08-Exercicio5\Aula19-08-Exercicio5.csproj", "{BD8CA461-2A3A-41CB-AFD9-E608A38DF729}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{5CB56ADB-6773-486B-89C6-4D441914D437}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CB56ADB-6773-486B-89C6-4D441914D437}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CB56ADB-6773-486B-89C6-4D441914D437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD8CA461-2A3A-41CB-AFD9-E608A38DF729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD8CA461-2A3A-41CB-AFD9-E608A38DF729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD8CA461-2A3A-41CB-AFD9-E608A38DF729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD8CA461-2A3A-41CB-AFD9-E608A38DF729}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
