@@ -33,15 +33,18 @@ Exercício 5:
    Cada pergunta vale 10 pontos.
 
 Exercício 6: Faça um programa no qual o usuário deverá descobrir o nome de um objeto com 5 dicas. 
-	Ao mostrar cada dica, o usuário deverá digitar o nome do objeto. Se ele acertar o nome do objeto, finalizar a
-	aplicação. 
-	Se ao final das 5 dicas ele não acertar o nome do objeto, mostrar o nome do objeto e finalizar a aplicação.
+	Ao mostrar cada dica, o usuário deverá digitar o nome do objeto. 
+	Se ele acertar o nome do objeto, finalizar a aplicação. 
+	Se ao final das 5 dicas ele não acertar o nome do objeto,
+	mostrar o nome do objeto e finalizar a aplicação.
 
 Exercício 7: Faça um programa no qual o usuário tem 5 tentativas para descobrir uma palavra com 5 letras.
 	Regra 1: O usuário deve digitar um caracter em cada tentativa.
-	Regra 2: A palavra não tem catecteres repitidos.
+	Regra 2: A palavra não tem caracteres repitidos.
 	Regra 3: Em cada tentativa a sua aplicação deverá mostrar se uma letra tem ou não na palavra. 
 	         Se tiver mostrar a posição da letra na palavra.
+
+	Regra 4: Após 5 tentativas, perguntar qual é a palavra, mostrar se ele errou ou acertou.
 
 
 
