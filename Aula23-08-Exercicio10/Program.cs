@@ -29,7 +29,72 @@ namespace Aula23_08_Exercicio10
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Random r = new Random();
+            int posicao = 1, dado=0, desenha;
+            
+          
+
+            while (posicao != 20)
+            {
+                Console.Clear();
+
+                if (dado != 0)
+                {
+                    Console.WriteLine("Dado: " + dado);
+                    Console.WriteLine("Posição: " + posicao);
+                }
+                else
+                {
+                    Console.WriteLine("Dado:");
+                    Console.WriteLine("Posição: " + posicao );
+                }
+
+                desenha = 1;
+                
+                while (desenha <= 20)
+                {
+
+                    if (desenha == posicao)
+                    {
+                        Console.Write("[X]");
+                    }
+                    else
+                    {
+                        Console.Write("[ ]");
+                    }
+                    desenha++;
+                }
+
+                Console.WriteLine("\n\nTecle ENTER para lançar o dado!");
+                Console.ReadKey();
+                dado = r.Next(1, 7);
+                posicao += dado;
+                
+                if (posicao > 20)
+                {
+                    posicao = 20  - (posicao - 20);
+                }
+            }
+
+            Console.Clear();
+            Console.WriteLine("Você venceu!");
+            desenha = 1;
+            while (desenha <= 20)
+            {
+
+                if (desenha == posicao)
+                {
+                    Console.Write("[X]");
+                }
+                else
+                {
+                    Console.Write("[ ]");
+                }
+                desenha++;
+            }
+            Console.WriteLine("\nFIM");
         }
+
     }
+    
 }
