@@ -47,9 +47,6 @@ namespace Aula23_08_Exercicio10
                 history += posicao + " ";
                 DesenhaHUD(dado, posicao, history);
                 DesenhaTabuleiro(posicao);
-                
-               
-
             }
 
             DesenhaFimDeJogo(posicao);
