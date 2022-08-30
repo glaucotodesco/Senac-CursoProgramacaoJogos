@@ -3,7 +3,7 @@
 O jogo inicia com um saldo de R$ 1000,00 para o player.
 O baralho contém milhares de cartas repetidas de 1 à 10.
 O jogo poderá conter diversas partidas.
-A cada início de partida você recebe 2 cartas, e desconta R$50,00 do saldo do player.
+A cada início de partida o player recebe 2 cartas, e desconta R$50,00 do saldo do player.
 O player pode desistir ou continuar uma partida. Se continuar, descontar novamente R$50,00 e receber uma nova carta. 
 
 Regras:
