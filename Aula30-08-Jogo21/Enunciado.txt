@@ -1,0 +1,31 @@
+﻿Jogo de cartas 21
+
+O jogo inicia com um saldo de R$ 1000,00 para o player.
+O baralho contém milhares de cartas repetidas de 1 à 10.
+O jogo poderá conter diversas partidas.
+A cada início de partida você recebe 2 cartas, e desconta R$50,00 do saldo do player.
+O player pode desistir ou continuar uma partida. Se continuar, descontar novamente R$50,00 e receber uma nova carta. 
+
+Regras:
+•	Se a soma das cartas do player for 21, o player ganhará um prêmio com o triplo do valor apostado e a partida é finalizada.
+•	Se a soma das suas cartas for maior que 21, o player perde tudo que foi apostado e a partida é finalizada;
+•	Se a soma das suas cartas for menor que 21, o player poderá desistir ou continuar a partida. Se continuar, pedir uma nova carta e descontar R$ 50,00 do seu saldo.
+•	Durante uma partida o saldo do player poderá ficar negativo.
+
+Ao final de cada partida o player poderá:
+•	Iniciar uma nova partida caso tenha o saldo mínimo de R$ 200,00.
+•	Terminar o jogo e mostrar o saldo final.
+
+Mostrar durante cada partida:
+•	Soma das cartas.
+•	Carta sorteada.
+•	Saldo total.
+•	Valor apostado.
+•	Valor do prêmio.
+
+
+
+
+
+
+
