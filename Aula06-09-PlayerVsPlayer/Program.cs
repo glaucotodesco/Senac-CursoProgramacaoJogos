@@ -31,7 +31,8 @@ namespace Aula06_09_PlayerVsPlayer
         static void Main(string[] args)
         {
 
-            int posicao1 = 1, posicao2=1, dado = 0, turno=1;
+            int posicao1 = 1, posicao2=1, dado = 0,  quemJoga =1;
+            bool perdeuVezPlayer1 = false, perdeuVezPlayer2 = false;
             string history1 = "1 ", history2="1 ";
 
             DesenhaHUD(dado, posicao1, posicao2, history1, history2);
@@ -39,27 +40,56 @@ namespace Aula06_09_PlayerVsPlayer
 
             while (posicao1 != 20 && posicao2 != 20)
             {
-                
-                
-                dado = SorteiaDado(turno);
-                Console.Clear();
-                if(turno == 1)
+                dado = SorteiaDado(quemJoga);
+              
+                if(quemJoga == 1)
                 {
                     posicao1 += dado;
                     posicao1 = VerificaPosicao(posicao1);
                     posicao1 = VerificaSorteOuAzar(posicao1);
+                   
+                    if (PerdeuAVez(posicao1))
+                    {
+                        Console.WriteLine("Player 1 perdeu a vez");
+                        perdeuVezPlayer1 = true;
+                    }
                     history1 += posicao1 + " ";
-                    turno = 2;
+                    
+                    if (perdeuVezPlayer2)
+                    {
+                        perdeuVezPlayer2 = false; //Repete o turno 1
+                    }
+                    else
+                    {
+                        quemJoga = 2;
+                    }
                 }
                 else
                 {
-                    posicao2 += dado;
-                    posicao2 = VerificaPosicao(posicao2);
-                    posicao2 = VerificaSorteOuAzar(posicao2);
-                    history2 += posicao2 + " ";
-                    turno = 1;
+                        posicao2 += dado;
+                        posicao2 = VerificaPosicao(posicao2);
+                        posicao2 = VerificaSorteOuAzar(posicao2);
+                        if (PerdeuAVez(posicao2))
+                        {
+                            Console.WriteLine("Player 2 perdeu a vez");
+                            perdeuVezPlayer2 = true;
+                        }
+                        history2 += posicao2 + " ";
 
+                        if (perdeuVezPlayer1)
+                        {
+                            perdeuVezPlayer1 = false; //Repete o turno 2
+                        }
+                        else
+                        {
+                            quemJoga = 1;
+                        }
+                    
                 }
+
+                
+            
+
 
                 DesenhaHUD(dado, posicao1, posicao2, history1, history2);
                 DesenhaTabuleiro(posicao1, posicao2);
@@ -79,6 +109,19 @@ namespace Aula06_09_PlayerVsPlayer
 
             DesenhaTabuleiro(posicao1, posicao2);
             Console.WriteLine("\nFIM");
+        }
+
+
+        static bool PerdeuAVez(int posicao)
+        {
+            if(posicao == 14)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         static int VerificaSorteOuAzar(int posicao)
@@ -135,6 +178,7 @@ namespace Aula06_09_PlayerVsPlayer
             Console.WriteLine("\n\nTecle ENTER para lançar o dado!");
             Console.ReadKey();
             dado = r.Next(1, 7);
+
             return dado;
         }
 
