@@ -14,45 +14,32 @@ namespace GameBall
     {
         Timer t;
         Brush brush = Brushes.Green;
-        int x=200, incX=1;
-        int y = 200, incY = 1;
-        Image img;
         
-
+        
+        Inimigo[] inimigos = new Inimigo[1000];
+      
         public Form1()
         {
             InitializeComponent();
-    
+            Random r = new Random();
+            for(int i=0; i < inimigos.Length; i++)
+            {
+                inimigos[i] = new Inimigo(r.Next(this.ClientRectangle.Width), r.Next(this.ClientRectangle.Height));
+                inimigos[i].incX = r.Next(2) == 0 ? 1 : -1;
+                inimigos[i].incY = r.Next(2) == 0 ? 1 : -1;
+            }
+            
+
+
         }
         private void GameLoop(object sender, PaintEventArgs e)
         {
-            //e.Graphics.FillEllipse(brush, x, y, 40, 40);
-            e.Graphics.DrawImage(img, x, y, 40, 40);
+            foreach(Inimigo i in this.inimigos)
+            {
+                i.Desenhar(e.Graphics);
+                i.Move();
+                i.Collision(this.ClientRectangle.Width, this.ClientRectangle.Height);
 
-            x = x + incX;
-            y = y + incY;
-
-            if(y > this.ClientRectangle.Height -  40)
-            {
-                brush = Brushes.Red;
-                incY = -1;
-            }
-            
-            if (y < 0)
-            {
-                brush = Brushes.Blue;
-                incY = 1;
-            }
-
-            if (x > this.ClientRectangle.Width - 40)
-            {
-                brush = Brushes.Yellow;
-                incX = -1;
-            }
-            if (x < 0)
-            {
-                brush = Brushes.Green;
-                incX = 1;
             }
 
         }
@@ -65,7 +52,7 @@ namespace GameBall
             t.Interval = 10;
             t.Tick += new EventHandler(t_Ticket);
             t.Start();
-            img = Image.FromFile("nave.png");
+          
             
         }
         private void t_Ticket(object sender, EventArgs e)
