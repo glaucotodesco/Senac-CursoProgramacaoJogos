@@ -25,12 +25,12 @@ namespace GameBall
         }
         private void GameLoop(object sender, PaintEventArgs e)
         {
-            e.Graphics.FillEllipse(brush, x, y, 80, 80);
+            e.Graphics.FillEllipse(brush, x, y, 40, 40);
          
             x = x + incX;
             y = y + incY;
 
-            if(y > this.ClientRectangle.Height -  80)
+            if(y > this.ClientRectangle.Height -  40)
             {
                 brush = Brushes.Red;
                 incY = -1;
@@ -42,7 +42,7 @@ namespace GameBall
                 incY = 1;
             }
 
-            if (x > this.ClientRectangle.Width - 80)
+            if (x > this.ClientRectangle.Width - 40)
             {
                 brush = Brushes.Yellow;
                 incX = -1;
@@ -63,7 +63,7 @@ namespace GameBall
             t.Interval = 10;
             t.Tick += new EventHandler(t_Ticket);
             t.Start();
-            this.img = Image.FromFile("nave.png");
+            
         }
         private void t_Ticket(object sender, EventArgs e)
         {
